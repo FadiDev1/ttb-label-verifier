@@ -125,7 +125,6 @@ Cloud vision APIs (Gemini, GPT-4o, Claude) are powerful but don't fit the constr
 | "We tried a scanning vendor — too slow" (Sarah) | ⚠️ Same cloud latency issue | ✅ Local = instant response |
 | Cost | 💰 Per-call API pricing | ✅ Free forever |
 
-Chosing local AI directly demonstrates understanding of the real operational constraints.
 
 ---
 
