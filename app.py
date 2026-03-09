@@ -100,7 +100,7 @@ def render_results(results: dict, raw_text: str):
 # ══════════════════════════════════════════════════════════════════════════════
 
 st.title("🍾 TTB Label Verification")
-st.markdown("Upload a label image and click Verify. That's it.")
+st.subheader("Upload a label image and click Verify. That's it.")
 
 tab1, tab2 = st.tabs(["📋 Single Label", "📦 Batch Upload"])
 
