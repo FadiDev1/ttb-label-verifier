@@ -46,6 +46,8 @@ The app opens automatically at `http://localhost:8501`.
 
 🌐 Live at: **[ttbanalyzer.streamlit.app](https://ttbanalyzer.streamlit.app)**
 
+Streamlit apps without traffic for one weekday will go to sleep. The system checks apps for inactivity throughout each day. Just click wake the app up if it says the app is asleep for any reason!
+
 ---
 
 ## How It Works
