@@ -106,10 +106,8 @@ tab1, tab2 = st.tabs(["📋 Single Label", "📦 Batch Upload"])
 
 # ── Single Label ─────────────────────────────────────────────────────────────
 with tab1:
-    st.header("📋 Single Label")
-    st.markdown("### Upload label image")
     uploaded_file = st.file_uploader(
-        "Choose a file",
+        "Upload label image",
         type=["jpg", "jpeg", "png"],
         key="single_upload",
     )
@@ -143,8 +141,7 @@ with tab1:
 
 # ── Batch Upload ─────────────────────────────────────────────────────────────
 with tab2:
-    st.header("📦 Batch Upload")
-    st.markdown("### Upload multiple label images at once")
+    st.markdown("Upload multiple label images at once.")
 
     batch_files = st.file_uploader(
         "Select label images",
