@@ -17,7 +17,7 @@ An AI-powered tool that scans any alcohol label image and verifies that all mand
 
 ```bash
 # 1. Clone the repo and navigate into it
-git clone <your-repo-url>
+git clone https://github.com/FadiDev1/ttb-label-verifier.git
 cd <your-project-folder>
 
 # 2. Create a virtual environment
@@ -31,6 +31,8 @@ source venv/bin/activate
 
 # 4. Install dependencies
 pip install -r requirements.txt
+
+(All required packages are listed in requirements.txt — nothing extra to install.)
 
 # 5. Run the app
 streamlit run app.py
