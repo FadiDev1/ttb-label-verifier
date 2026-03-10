@@ -44,14 +44,11 @@ with st.sidebar:
         "6. Bottler Name & Address\n"
         "7. Country of Origin"
     )
-    st.divider()
     st.markdown(
         "- ⚡ Under 5 seconds\n"
         "- 📷 Handles glare & angles\n"
         "- 🔒 Fully local — no data sent anywhere"
     )
-    st.divider()
-    st.caption("[TTB.gov Label Reference](https://www.ttb.gov/labeling/beverage-alcohol-manual)")
 
 
 # ── Results ──────────────────────────────────────────────────────────────────
@@ -99,8 +96,15 @@ def render_results(results: dict, raw_text: str):
 #  MAIN PAGE
 # ══════════════════════════════════════════════════════════════════════════════
 
-st.title("🍾 TTB Label Verification")
-st.subheader("Upload a label image and click Verify. That's it.")
+st.markdown(
+    '<h1 style="text-align:center; font-size:3rem;">🍾 TTB Label Verification</h1>',
+    unsafe_allow_html=True,
+)
+st.markdown(
+    '<p style="text-align:center; font-size:1.4rem; font-weight:600;">'
+    'Upload a label image and click Verify. That\'s it.</p>',
+    unsafe_allow_html=True,
+)
 
 tab1, tab2 = st.tabs(["📋 Single Label", "📦 Batch Upload"])
 
