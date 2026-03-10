@@ -116,7 +116,7 @@ with tab1:
         key="single_upload",
     )
 
-    if st.button("🔍  Verify Label", type="primary", use_container_width=True):
+    if st.button("Verify Label", type="primary", use_container_width=True):
         if not uploaded_file:
             st.warning("Please upload a label image first.")
         else:
